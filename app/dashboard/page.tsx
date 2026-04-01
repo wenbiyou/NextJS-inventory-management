@@ -1,4 +1,4 @@
-import Sidebar from "@/components/sidebartemp";
+import Sidebar from "@/components/sidebar";
 import { getCurrentUser } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
 import { TrendingUp } from "lucide-react";
@@ -69,8 +69,8 @@ export default async function DashboardPage() {
     });
   }
 
-  console.log(allProducts);
-  console.log(weeklyProductsData);
+  // console.log(allProducts);
+  // console.log(weeklyProductsData);
 
   return (
     <div className="min-h-screen bg-gray-50">
