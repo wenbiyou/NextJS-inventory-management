@@ -76,6 +76,7 @@ export default async function DashboardPage() {
     <div className="min-h-screen bg-gray-50">
       <Sidebar currentPath="/dashboard" />
       <main className="ml-64 p-8">
+        {/* Header */}
         <div className="mb-8">
           <div className="flex items-center justify-between">
             <div>
@@ -87,6 +88,7 @@ export default async function DashboardPage() {
           </div>
         </div>
 
+        {/* Key Metrics */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
           <div className="bg-white rounded-lg border border-gray-200 p-6">
             <h2 className="text-lg font-semibold text-gray-900 mb-6">
@@ -141,6 +143,7 @@ export default async function DashboardPage() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+          {/* Stock Levels */}
           <div className="bg-white rounded-lg border border-gray-200 p-6">
             <div className="flex items-center justify-between mb-6">
               <h2 className="text-lg font-semibold text-gray-900">
@@ -192,7 +195,7 @@ export default async function DashboardPage() {
               })}
             </div>
           </div>
-
+          {/* Efficiency */}
           <div className="bg-white rounded-lg border border-gray-200 p-6">
             <div className="flex items-center justify-between mb-6">
               <h2 className="text-lg font-semibold text-gray-900">
