@@ -49,8 +49,7 @@ STACK_SECRET_SERVER_KEY="你的-stack-密钥"
 1. Clone the repository:
 
 ```bash
-git clone <仓库地址>
-cd nextjs-inventory-management
+git clone https://github.com/wenbiyou/NextJS-inventory-management.git
 ```
 
 2. Install dependencies:
@@ -91,7 +90,6 @@ yarn dev
 │   ├── inventory/       # 库存列表页面
 │   ├── settings/        # 设置页面
 │   ├── sign-in/         # 登录认证页面
-│   ├── api/             # API 路由
 │   ├── layout.tsx       # 根布局
 │   └── page.tsx         # 着陆页
 ├── components/          # React 组件
